@@ -10,8 +10,8 @@ outFol <- "../Data/Spatial"
 
 coords2012 <- "../Data/Tabular/tweets2012.csv"
 out2012 <- "tweets2012"
-coords2015 <- "../Data/Tabular/tweets2015.csv"
-out2015 <- "tweets2015"
+# coords2015 <- "../Data/Tabular/tweets2015.csv"
+# out2015 <- "tweets2015"
 
 counties <- readOGR("../Data/Spatial","USCounties2010")
 counties <- counties[,-c(1:3,6:17)]
